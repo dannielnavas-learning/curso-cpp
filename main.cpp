@@ -20,6 +20,7 @@ int main()
     cout << "La inicial del usuario es: " << initial << endl; // endl hace un cambio de linea
 
     int list_of_age[] = {36, 34, 8}; // forma de declarar listas
+    list_of_age[0] = 31;
     cout << list_of_age[0] << ", " << list_of_age[1] << ", " << list_of_age[2] << endl;
     // codigo que se ejecuta al iniciar el programa
     cout << "La edad del usuario es: " << age_user << endl;
