@@ -13,6 +13,10 @@ int main()
     {
         cout << "Iteración: " << i << endl;
         cout << "Valor en lista: " << lista[i] << endl;
+        if (lista[i] == 4)
+        {
+            break;
+        }
     }
 
     return 0;
